@@ -7,7 +7,15 @@ namespace DemoMVC061.Controllers
         //  Trả về ViewResult
         public ActionResult Index()
         {
-             ViewBag.Message = "Đây là ví dụ về ViewResult";
+            ViewBag.Message = "Xin chào từ ViewBag!";
+            ViewData["Note"] = "Thông báo từ ViewData!";
+            TempData["Alert"] = "Dữ liệu từ TempData (vẫn tồn tại sau Redirect).";
+            return View();
+        }
+        
+        public IActionResult ShowTempData()
+        {
+            // TempData giữ được dữ liệu từ action Index
             return View();
         }
         //  Trả về RedirectResult
@@ -25,7 +33,13 @@ namespace DemoMVC061.Controllers
         //  Trả về JsonResult
         public IActionResult GetJson()
         {
-            var data = new { Name = "MVC Demo", Lesson = 3, Author = "MSV 061" };
+            var data = new 
+            { 
+                Id = 1,
+                Name = "Ngọc anh",
+                Message = "Xin chào",
+                
+             };
             return Json(data);
         }
         //FileResult — Trả về một file
