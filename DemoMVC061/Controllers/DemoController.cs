@@ -28,6 +28,12 @@ namespace DemoMVC061.Controllers
             var data = new { Name = "MVC Demo", Lesson = 3, Author = "MSV 061" };
             return Json(data);
         }
+        //FileResult — Trả về một file
+           public IActionResult FileExample()
+        {
+            
+                return StatusCode(404, "Không tìm thấy file example.pdf trong wwwroot.");
+        }
 
         //  Trả về StatusCodeResult
         public IActionResult ShowError()
