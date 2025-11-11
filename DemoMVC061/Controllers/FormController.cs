@@ -3,7 +3,7 @@ using System;
 
 namespace DemoMVC061.Controllers
 {
-    public class FormController : Controller
+      public class FormController : Controller
     {
         // --- Chức năng 1 + 2: Nhập tên và năm sinh ---
         [HttpGet]
