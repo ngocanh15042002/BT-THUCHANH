@@ -28,8 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xTaG93VGVtcERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/NetCore/PHATTRIENPHANMEMQUANLY/DemoMVC061/Views/Form/GiaiPT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxHaWFpUFQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/NetCore/PHATTRIENPHANMEMQUANLY/DemoMVC061/Views/Form/InputForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxJbnB1dEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/NetCore/PHATTRIENPHANMEMQUANLY/DemoMVC061/Views/Form/NhapThongTin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxOaGFwVGhvbmdUaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/NetCore/PHATTRIENPHANMEMQUANLY/DemoMVC061/Views/Form/Result.cshtml]
